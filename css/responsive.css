@@ -1,0 +1,84 @@
+@media screen and (max-width: 576px) {
+  header nav {
+    flex-direction: column-reverse;
+    gap: 3vh;
+  }
+
+  header .banner-title {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  header .discription {
+    width: 70%;
+  }
+
+  main .features {
+    flex-direction: column;
+  }
+
+  main .features .features-images {
+    grid-template-columns: 100%;
+    row-gap: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  main .features .features-content {
+    gap: 2vh;
+  }
+  
+  main .discription {
+    width: 70%;
+  }
+
+  main .love-enjoy {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  main .love-enjoy-content {
+    width: 90%;
+  }
+
+  main .love-enjoy-title {
+    width: auto;
+  }
+
+  main .love-image img {
+    width: 100%;
+  }
+
+  main .ten-years button {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: -20px;
+    font-size: 1.9rem;
+  }
+
+  main .facts-content > p {
+    width: 80%;
+  }
+
+  main .facts-card {
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
+
+  main .sponsors-com {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 5vh;
+  }
+  footer p {
+    padding-top: 5vh;
+    width: 70%;
+  }
+}

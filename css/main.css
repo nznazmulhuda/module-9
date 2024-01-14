@@ -1,0 +1,199 @@
+main .features {
+  margin: 5vh auto;
+  /* border: 2px solid; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5vw;
+}
+
+main .features .features-images {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 1vw;
+}
+
+main .features .features-images img {
+  width: 100%;
+}
+
+main .features .features-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+main .features-content h1 {
+  width: auto;
+  /* border: 1px solid; */
+}
+
+main .features-content p {
+  text-align: left;
+  /* border: 1px solid; */
+  width: auto;
+}
+
+main .love-enjoy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw;
+  gap: 10vw;
+}
+
+main .love-enjoy-content {
+  width: 50%;
+}
+
+main .love-enjoy-title {
+  width: 70%;
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+  margin-bottom: 2vh;
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main .love-enjoy-content > p {
+  text-align: left;
+  width: 90%;
+  margin-bottom: 5vh;
+}
+
+main .love-card {
+  width: 90%;
+  padding-left: 3vw;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+main .love-card h3 {
+  padding-top: 2vh;
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-bottom: 1vh;
+}
+
+main .love-card p {
+  text-align: left;
+  width: 90%;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+
+main .love-image img {
+  width: 100%;
+}
+
+main .ten-years button {
+  width: 342px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  position: relative;
+  top: calc(-200px / 2);
+  left: calc(-330px / 3);
+}
+
+main .ten-years button span {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+main .facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7vh;
+  padding-bottom: 10vh;
+}
+
+main .facts-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+main .facts-content {
+  padding-left: 10%;
+}
+
+main .facts-content > p {
+  text-align: left;
+  width: 30%;
+}
+
+main .facts-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main .facts-card .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  width: 242px;
+  height: 242px;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+}
+
+main .facts-card .card h1 {
+  color: #424242;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+main .facts-card .card h3 {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+main .sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
+
+main .sponsors-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  padding-bottom: 3vh;
+}
+
+main .sponsors-content h1 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main .sponsors-com {
+  padding-top: 2vh;
+  display: flex;
+  gap: 9vw;
+  align-items: center;
+  justify-content: center;
+}
