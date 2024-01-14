@@ -1,4 +1,9 @@
-@media screen and (max-width: 576px) {
+/*==================================== for mid range phone and tablet======================================= */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+  /*==================================== header style is here ========================== */
+
   header nav {
     flex-direction: column-reverse;
     gap: 3vh;
@@ -14,14 +19,22 @@
     width: 70%;
   }
 
+  /*=========================== Feature Section style is here ===========================*/
+
   main .features {
     flex-direction: column;
   }
 
   main .features .features-images {
-    grid-template-columns: 100%;
-    row-gap: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding-bottom: 3vh;
+  }
+
+  main .features .features-images img {
+    width: 40%;
   }
 
   main .features .features-content {
@@ -31,6 +44,8 @@
   main .discription {
     width: 70%;
   }
+
+  /*========================== Love & Enjoy section style is here ========================*/
 
   main .love-enjoy {
     flex-direction: column;
@@ -57,6 +72,8 @@
     font-size: 1.9rem;
   }
 
+  /*===================== Facts Section is here ===========================*/
+
   main .facts-content > p {
     width: 80%;
   }
@@ -68,17 +85,125 @@
     gap: 2vw;
   }
 
+  /*============== Sponsor section style is here =========================*/
+
   main .sponsors-com {
     flex-wrap: wrap;
   }
+
+  /*===================== footer section style is here ====================*/
 
   footer {
     width: 100%;
     margin-bottom: 0;
     padding-bottom: 5vh;
   }
+
   footer p {
     padding-top: 5vh;
     width: 70%;
   }
+
+}
+
+/*======================================================= for small device and phone =======================================================*/
+
+@media screen and (max-width: 576px) {
+
+  /*===================== header style is here ============== */
+
+  header nav {
+    flex-direction: column-reverse;
+    gap: 3vh;
+  }
+
+  header .banner-title {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  header .discription {
+    width: 70%;
+  }
+
+  /*=========================== Feature Section style is here ===========================*/
+
+  main .features {
+    flex-direction: column;
+  }
+
+  main .features .features-images {
+    grid-template-columns: 100%;
+    row-gap: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  main .features .features-content {
+    gap: 2vh;
+  }
+  
+  main .discription {
+    width: 70%;
+  }
+
+  /*========================== Love & Enjoy section style is here ========================*/
+
+  main .love-enjoy {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  main .love-enjoy-content {
+    width: 90%;
+  }
+
+  main .love-enjoy-title {
+    width: auto;
+  }
+
+  main .love-image img {
+    width: 100%;
+  }
+
+  main .ten-years button {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: -20px;
+    font-size: 1.9rem;
+  }
+
+  /*===================== Facts Section is here ===========================*/
+
+  main .facts-content > p {
+    width: 80%;
+  }
+
+  main .facts-card {
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
+
+  /*============== Sponsor section style is here =========================*/
+
+  main .sponsors-com {
+    flex-wrap: wrap;
+  }
+
+  /*===================== footer section style is here ====================*/
+
+  footer {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 5vh;
+  }
+
+  footer p {
+    padding-top: 5vh;
+    width: 70%;
+  }
+
 }

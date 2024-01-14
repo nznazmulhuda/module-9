@@ -1,3 +1,5 @@
+/*================================================ Features Section style is here ======================================*/
+
 main .features {
   margin: 5vh auto;
   /* border: 2px solid; */
@@ -34,6 +36,8 @@ main .features-content p {
   /* border: 1px solid; */
   width: auto;
 }
+
+/*======================================================= Love & Enjoy section Style is here ==============================================*/
 
 main .love-enjoy {
   display: flex;
@@ -112,6 +116,8 @@ main .ten-years button span {
   font-weight: 500;
 }
 
+/*================================================= Facts Section styel is here =================================================*/
+
 main .facts {
   display: flex;
   flex-direction: column;
@@ -165,6 +171,8 @@ main .facts-card .card h3 {
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+/*====================================================== Sponsors section style is here ==========================================*/
 
 main .sponsors {
   display: flex;
