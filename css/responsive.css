@@ -22,7 +22,7 @@
   /*=========================== Feature Section style is here ===========================*/
 
   main .features {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   main .features .features-images {
@@ -130,7 +130,7 @@
   /*=========================== Feature Section style is here ===========================*/
 
   main .features {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   main .features .features-images {
