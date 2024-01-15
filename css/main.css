@@ -204,4 +204,5 @@ main .sponsors-com {
   gap: 9vw;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
