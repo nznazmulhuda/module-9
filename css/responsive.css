@@ -6,7 +6,12 @@
 
   header nav {
     flex-direction: column-reverse;
-    gap: 3vh;
+    gap: 5vh;
+  }
+
+  header nav ul {
+    gap: 7vw;
+    font-size: small;
   }
 
   header .banner-title {
@@ -66,9 +71,9 @@
 
   main .ten-years button {
     position: relative;
-    width: 100%;
+    width: 90%;
     left: 0px;
-    top: -20px;
+    top: -70px;
     font-size: 1.9rem;
   }
 
@@ -87,6 +92,14 @@
   }
 
   /*============== Sponsor section style is here =========================*/
+  
+  main .sponsors-content p {
+    width: 90%;
+  }
+
+  main .sponsors-content h1 {
+    font-size: 2rem;
+  }
 
   main .sponsors-com {
     flex-wrap: wrap;
@@ -117,6 +130,11 @@
   header nav {
     flex-direction: column-reverse;
     gap: 3vh;
+  }
+
+  header nav ul {
+    gap: 7vw;
+    font-size: small;
   }
 
   header .banner-title {
@@ -170,7 +188,7 @@
 
   main .ten-years button {
     position: relative;
-    width: 100%;
+    width: 80%;
     left: 0px;
     top: -20px;
     font-size: 1.9rem;
@@ -191,6 +209,14 @@
 
   /*============== Sponsor section style is here =========================*/
 
+  main .sponsors-content p {
+    width: 90%;
+  }
+
+  main .sponsors-content h1 {
+    font-size: 2rem;
+  }
+
   main .sponsors-com {
     flex-wrap: wrap;
     padding: 0 3vw;
@@ -205,6 +231,7 @@
   }
 
   footer p {
+    font-size: 1rem;
     padding-top: 5vh;
     width: 70%;
   }
